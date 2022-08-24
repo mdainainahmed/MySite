@@ -1,0 +1,136 @@
+body{
+  margin: 2rem 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #66BFBF;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.6rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.container-fluid{
+  padding: 0 10rem;
+}
+
+.colored-section{
+  background-color: #B9FFF8;
+  color: #395B64;
+}
+
+
+/* Upper Section */
+#upper{
+  margin: 3rem 0;
+}
+span{
+  text-decoration: underline;
+}
+.nav-image{
+  width: 10rem;
+  padding-left: 3rem;
+}
+.nav-items{
+  padding: 0 1rem;
+}
+.cloud{
+  display: block;
+}
+
+
+
+/* Profile Section */
+#profile{
+  margin: 3rem 0;
+  padding: 2rem;
+  line-height: 5rem;
+}
+.profile-image{
+  width: 11rem;
+  margin: 2rem;
+}
+
+
+/* Skills Section */
+#skills{
+  margin: 3rem 0 6rem;
+}
+.skill-row{
+  margin: 4rem 0;
+  text-align: left;
+}
+.dsa-image{
+  width: 11rem;
+  margin: 0 2rem;
+  float: left;
+}
+.web-image{
+  width: 11rem;
+  margin: 0 2rem;
+  float: right;
+}
+
+
+
+/* Project Section */
+#projects{
+  margin: 3rem 0;
+  padding: 3rem 2rem 2rem;
+  line-height: 5rem;
+}
+.project-carousel{
+  margin: 3rem;
+}
+.project-gif{
+  margin: 20px;
+  height: 21.875rem;
+  width: 43.75rem;
+}
+.project-icon-1{
+  position: relative;
+  right: 100%;
+}
+.project-icon-2{
+  position: relative;
+  left: 100%;
+}
+.link{
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  margin: 70px 0 70px;
+}
+.footer-icons{
+  padding: 1rem;
+  color: blue;
+}
+
+
+
+/* media query */
+@media (max-width: 1028px){
+  .project-gif{
+    width: 100%;
+    height: 100%;
+  }
+}
