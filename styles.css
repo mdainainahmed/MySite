@@ -99,7 +99,9 @@ span{
 .div-text{
   text-align: left;
 }
-
+.div-text-2{
+  margin-left: 1rem;
+}
 
 
 /* Project Section */
