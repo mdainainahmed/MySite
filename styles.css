@@ -65,6 +65,7 @@ span{
 }
 
 
+
 /* Skills Section */
 #skills{
   margin: 3rem 0 6rem;
@@ -82,6 +83,21 @@ span{
   width: 11rem;
   margin: 0 2rem;
   float: right;
+}
+.skill-row-small{
+  margin: 4rem 0;
+}
+.dsa-image-small{
+  width: 11rem;
+  margin: 0;
+}
+.web-image-small{
+  width: 11rem;
+  margin: 0;
+  text-align: left;
+}
+.div-text{
+  text-align: left;
 }
 
 
@@ -126,11 +142,24 @@ span{
 }
 
 
+/* Skills Divs */
+.visibilityDiv1{
+}
+.visibilityDiv2{
+  display: none;
+}
+
 
 /* media query */
 @media (max-width: 1028px){
   .project-gif{
     width: 100%;
     height: 100%;
+  }
+  .visibilityDiv1{
+    display: none;
+  }
+  .visibilityDiv2{
+    display: block;
   }
 }
