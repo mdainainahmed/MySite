@@ -37,6 +37,9 @@ p{
 #upper{
   margin: 3rem 0;
 }
+.nav-container{
+  background-color: #fff;
+}
 span{
   text-decoration: underline;
 }
